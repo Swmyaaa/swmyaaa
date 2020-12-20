@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <section id="banner">
+        <div class= "banner-text">
+
+            <h1>
+                <span>L</span>
+                <span>o</span>
+                <span>v</span>
+                <span>e</span>
+                <span>&nbsp</span>
+                <span>a</span>
+                <span>t</span>
+                <span>&nbsp</span>
+
+                <span>f</span>
+                <span>i</span>
+                <span>r</span>
+                <span>s</span>
+                <span>t</span>
+                <span>&nbsp</span>
+
+                <span>b</span>
+                <span>i</span>
+                <span>t</span>
+                <span>e</span>
+            </h1>
+            <div class ="banner-btns">
+                <a href="login.html" >Login / SIGN UP</a>
+            </div>
+        </div>
+        <img class="logo" src="logoo.jpg" alt= "Logo">
+        
+    </header>
+    <section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li> 
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">ORDER NOW</a></li>
+                </ul>
+            </nav>
+            <div>
+                <div id="MenuBtn">
+                    <img src="menu.png" id="menu">
+                </div>
+            </div>
+        </div>
+        <script>
+            var MenuBtn = document.getElementById("MenuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+
+            MenuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px") {
+                    sideNav.style.right = "17px";
+                    menu.src ="close.png";
+                } else {
+                    sideNav.style.right = "-250px";
+                    menu.src="menu.png";
+                }
+            }
+
+        </script>
+    </section>
+        <section>
+			<div class = "section-one">
+				<div class = "quote">	
+					<h5>Nothing Brings People Together Like Good Food!</h2>
+				</div>
+				<div class = "pictures" >
+					<img src = "brownie.jpg" alt = "Brownie">
+					<img src = "burger.jpg" alt = " Burger">
+					<img src = "cake.jpg" alt = "Cake">
+					<img src = "coffee.jpg" alt = "Coffee">
+					<img src = "frenchtoast.jpg" alt = "French Toast" >
+
+				</div>
+				<div class = "pictures">
+					<img src = "image.jpg" alt = "Something" >
+					<img src = "noodle.jpg" alt = "Noodles">
+					<img src = "pancake.jpg" alt = "PanCake">
+					<img src = "pizza.jpg" alt = "Pizza">
+					<img src = "twist.jpg" alt = "Twist">
+				</div>
+			</div>
+		</section>
+    </section>
+    <section id="tesimonial"> 
+        <div class="title-text">
+            <h1>TESTIMONIAL</h1>
+            <h2>What Client Says</h2>
+        </div>
+        <div class="testimonial-row">
+
+            <div class = "testimonial-col">
+                <div class="user">
+                    <img src="img-1.jpg">
+                    <div class="user-info">
+                        <h4>SAM WINCHESTER <i class="fa fa-twitter"></i></h4>
+                        <small>@samwinchester</small>
+                    </div>
+                </div>
+                <p>Donec eget ultricies sapi. Sed porttitir, mauris ter lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi. Donec eget ultricie sapi. Spi elefied liguala. Donec eget ultricies sapi</p>
+            </div>
+
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="img-2.jpg">
+                    <div class="user-info">
+                        <h4>LISA KUDROW<i class="fa fa-twitter"></i></h4>
+                        <small>@lisakudrow</small>
+                    </div>
+                </div>
+                <p>Donec eget ultricies sapi. Sed porttitir, mauris ter lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi. Donec eget ultricie sapi. Spi elefied liguala. Donec eget ultricies sapi</p>
+
+            </div>
+
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="img-3.jpg">
+                    <div class="user-info">
+                        <h4>MANOBAN <i class="fa fa-twitter"></i></h4>
+                        <small>@manoban</small>
+                    </div>
+                </div>
+                <p>Donec eget ultricies sapi. Sed porttitir, mauris ter lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi. Donec eget ultricie sapi. Spi elefied liguala. Donec eget ultricies sapi</p>
+
+
+            </div>
+        </div>
+
+    </section>
+    <section id="footer">
+        <div class="title-text2">
+            <h1>Contact</h1>
+            <h2>Visit Our Place Today</h2>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p>Monday to Friday - 9am to 9pm</p>
+                <p>Saturday and Sunday - 8am to 11pm</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p>example@website.com</p>
+                <p>+01 123456789</p>
+            </div>
+        </div>
+        <div class="social-links">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+
+        </div>
+    </section>
+</body>
+</html> 
